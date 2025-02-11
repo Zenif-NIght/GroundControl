@@ -10,14 +10,10 @@ conda activate IsaacLab
 
 git clone git@github.com:UWRobotLearning/GroundControl.git
 cd source/extensions
-pip install -e omni.isaac.groundcontrol
-pip install -e omni.isaac.groundcontrol_assets
-pip install -e omni.isaac.groundcontrol_tasks
+pip install -e groundcontrol
+pip install -e groundcontrol_assets
+pip install -e groundcontrol_tasks
 ```
-
-### Download the Policy and make sure the path is set up correctly in:
-https://github.com/UWRobotLearning/GroundControl/blob/425d5c45e2ee17107748571ec5bf12a4d81df53e/source/extensions/omni.isaac.groundcontrol_tasks/omni/isaac/groundcontrol_tasks/manager_based/navigation/config/spot/navigation_env_cfg.py#L54
-
 
 ### Run Teleop Example
 ```bash
