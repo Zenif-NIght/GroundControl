@@ -1,5 +1,5 @@
 ## Installing IsaacLab
-https://isaac-sim.github.io/IsaacLab/source/setup/installation/index.html
+https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html#installation-using-isaac-sim-pip
 
 ## Installing GroundControl
 
@@ -8,8 +8,8 @@ https://isaac-sim.github.io/IsaacLab/source/setup/installation/index.html
 # Activate the conda environment that was created via the IsaacLab setup.
 conda activate IsaacLab
 
-git clone git@github.com:UWRobotLearning/GroundControl.git
-cd source/extensions
+https://github.com/UWRobotLearning/GroundControl.git
+cd source
 pip install -e groundcontrol
 pip install -e groundcontrol_assets
 pip install -e groundcontrol_tasks
