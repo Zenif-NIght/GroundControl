@@ -25,7 +25,7 @@ python source/standalone/environments/teleoperation/teleop_se2_agent.py --task I
 
 ### VSCode Debug 
 create a .vscode/lanunch.jaon file and add this to the lanunch.jaon
-```
+Create a .vscode/launch.json by following these steps:
   {
       "name": "Python: Teleop GroundControl",
       "type": "debugpy",
